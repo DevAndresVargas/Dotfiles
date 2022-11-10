@@ -12,16 +12,18 @@ call plug#begin('~/.config/nvim/plugged')
         " Autopairs
         Plug 'jiangmiao/auto-pairs'
         " File explorer
-        Plug 'scrooloose/NERDTree'    
+        Plug 'scrooloose/NERDTree'
         " Icons
         Plug 'ryanoasis/vim-devicons'
+        " Auto set 'shiftwidht'
+        Plug 'tpope/vim-sleuth'
         " Intellisense
         Plug 'neoclide/coc.nvim', {'branch': 'release'}
         " Airline
         Plug 'vim-airline/vim-airline'
         Plug 'vim-airline/vim-airline-themes'
         " Indent guides
-        " Plug 'Yggdroot/indentLine' 
+        Plug 'Yggdroot/indentLine'
         " Git integration
         Plug 'mhinz/vim-signify'
         " Autoclose tags
@@ -34,9 +36,22 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'airblade/vim-rooter'
         " Prettier
         Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-
+        " css color
+        Plug 'ap/vim-css-color'
+        " Lint
+        Plug 'mfussenegger/nvim-lint'
+        "  MarkDown
+        Plug 'godlygeek/tabular' | Plug 'preservim/vim-markdown'
+        Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+        " scipt runner
+        Plug 'ironcamel/vim-script-runner', {'for': ['sh', 'python']}
+        " Not GUI
+        Plug 'junegunn/goyo.vim'
+        " Focus light
+        Plug 'junegunn/limelight.vim'
         " Themes
         Plug 'joshdick/onedark.vim'
+        Plug 'gosukiwi/vim-atom-dark'
         Plug 'kaicataldo/material.vim'
         Plug 'tomasiser/vim-code-dark'
         Plug 'crusoexia/vim-monokai'
@@ -45,3 +60,4 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'phanviet/vim-monokai-pro'
     endif
 call plug#end()
+
