@@ -15,12 +15,11 @@
 " nmap <Leader>f <Plug>(easymotion-overwin-f)
 
 " s{char}{char} to move to {char}{char}
-nmap s <Plug>(easymotion-s2)
+nmap <C-W> <Plug>(easymotion-s2)
 " map  n <Plug>(easymotion-next)
 " map  N <Plug>(easymotion-prev)
 " nmap s <Plug>(easymotion-overwin-f2)
 " nmap S <Plug>(easymotion-overwin-t)
-
 " Move to line
 " map <Leader>l <Plug>(easymotion-bd-jk)
 " nmap <Leader>l <Plug>(easymotion-overwin-line)
