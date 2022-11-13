@@ -18,6 +18,8 @@ else
     source $HOME/Appdata/local/nvim/plug-config/rnvimr.vim
     source $HOME/Appdata/local/nvim/plug-config/fzf.vim
     source $HOME/Appdata/local/nvim/plug-config/prettier.vim
+    source $HOME/Appdata/local/nvim/plug-config/markdown-preview.vim
+    source $HOME/Appdata/local/nvim/plug-config/vim-markdown.vim
     " luafile $HOME/Appdata/local/nvim/plug-config/nvim-treeseter.lua
     " Themes
     source $HOME/Appdata/local/nvim/general/colors.vim
@@ -25,7 +27,4 @@ else
     source $HOME/Appdata/local/nvim/themes/dracula.vim
     source $HOME/Appdata/local/nvim/general/automations.vim
     source $HOME/Appdata/local/nvim/general/command.vim
-
-
-
 endif
