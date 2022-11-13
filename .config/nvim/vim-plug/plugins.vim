@@ -41,10 +41,23 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'airblade/vim-rooter'
         " Prettier
         Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-
+        " css color
+        Plug 'ap/vim-css-color'
+        " Lint
+        Plug 'mfussenegger/nvim-lint'
+        "  MarkDown
+        Plug 'godlygeek/tabular' | Plug 'preservim/vim-markdown'
+        Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+        " scipt runner
+        Plug 'ironcamel/vim-script-runner', {'for': ['sh', 'python']}
+        " Not GUI
+        Plug 'junegunn/goyo.vim'
+        " Focus light
+        Plug 'junegunn/limelight.vim'
         " Themes
         Plug 'joshdick/onedark.vim'
         Plug 'kaicataldo/material.vim'
+        Plug 'gosukiwi/vim-atom-dark'
         Plug 'tomasiser/vim-code-dark'
         Plug 'crusoexia/vim-monokai'
         Plug 'ayu-theme/ayu-vim'
