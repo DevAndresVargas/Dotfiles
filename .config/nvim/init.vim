@@ -9,7 +9,7 @@ if exists('g:vscode')
     source $HOME/.config/nvim/plug-config/easymotion.vim
 else
     " Plugins
-    source $HOME/.config/nvim/plug-config/coc.vim
+    "source $HOME/.config/nvim/plug-config/coc.vim
     source $HOME/.config/nvim/plug-config/nerdtree.vim
     source $HOME/.config/nvim/plug-config/explorer.vim
     source $HOME/.config/nvim/plug-config/indentLine.vim

@@ -1,2 +1,2 @@
 let g:mkdp_refresh_slow=1
-"TODO
+let g:mkdp_markdown_css='~/.local/lib/github-markdown-css/github-markdown.css'
