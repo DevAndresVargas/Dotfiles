@@ -1,30 +1,30 @@
 " General
-source $HOME/Appdata/local/nvim/general/settings.vim
-source $HOME/Appdata/local/nvim/general/keys.vim
-source $HOME/Appdata/local/nvim/vim-plug/plugins.vim
+source $HOME/.config/nvim/general/settings.vim
+source $HOME/.config/nvim/general/keys.vim
+source $HOME/.config/nvim/vim-plug/plugins.vim
+source $HOME/.config/nvim/general/command.vim
 
 if exists('g:vscode')
-    source $HOME/Appdata/local/nvim/vscode/settings.vim
-    source $HOME/Appdata/local/plug-config/easymotion.vim
+    source $HOME/.config/nvim/vscode/settings.vim
+    source $HOME/.config/nvim/plug-config/easymotion.vim
 else
     " Plugins
-    "source $HOME/Appdata/local/nvim/plug-config/coc.vim
-    source $HOME/Appdata/local/nvim/plug-config/nerdtree.vim
-    source $HOME/Appdata/local/nvim/plug-config/explorer.vim
-    source $HOME/Appdata/local/nvim/plug-config/indentLine.vim
-    source $HOME/Appdata/local/nvim/plug-config/vim-closetag.vim
-    source $HOME/Appdata/local/nvim/plug-config/signify.vim
-    source $HOME/Appdata/local/nvim/plug-config/vim-commentary.vim
-    source $HOME/Appdata/local/nvim/plug-config/rnvimr.vim
-    source $HOME/Appdata/local/nvim/plug-config/fzf.vim
-    source $HOME/Appdata/local/nvim/plug-config/prettier.vim
-    source $HOME/Appdata/local/nvim/plug-config/markdown-preview.vim
-    source $HOME/Appdata/local/nvim/plug-config/vim-markdown.vim
-    " luafile $HOME/Appdata/local/nvim/plug-config/nvim-treeseter.lua
+    source $HOME/.config/nvim/plug-config/coc.vim
+    source $HOME/.config/nvim/plug-config/nerdtree.vim
+    source $HOME/.config/nvim/plug-config/explorer.vim
+    source $HOME/.config/nvim/plug-config/indentLine.vim
+    source $HOME/.config/nvim/plug-config/vim-closetag.vim
+    source $HOME/.config/nvim/plug-config/signify.vim
+    source $HOME/.config/nvim/plug-config/vim-commentary.vim
+    source $HOME/.config/nvim/plug-config/rnvimr.vim
+    source $HOME/.config/nvim/plug-config/fzf.vim
+    source $HOME/.config/nvim/plug-config/markdown-preview.vim
+    source $HOME/.config/nvim/plug-config/vim-markdown.vim
+    source $HOME/.config/nvim/plug-config/prettier.vim
+    " luafile $HOME/.config/nvim/plug-config/nvim-treeseter.lua
     " Themes
-    source $HOME/Appdata/local/nvim/general/colors.vim
-    source $HOME/Appdata/local/nvim/themes/airline.vim
-    source $HOME/Appdata/local/nvim/themes/dracula.vim
-    source $HOME/Appdata/local/nvim/general/automations.vim
-    source $HOME/Appdata/local/nvim/general/command.vim
+    source $HOME/.config/nvim/general/colors.vim
+    source $HOME/.config/nvim/general/automations.vim
+    source $HOME/.config/nvim/themes/airline.vim
+    source $HOME/.config/nvim/themes/dracula.vim
 endif
