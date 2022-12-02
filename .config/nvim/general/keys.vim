@@ -23,6 +23,10 @@ nnoremap <C-b> :bd<CR>
 vnoremap < <gv
 vnoremap > >gv
 
+" Snake
+map f <Plug>Sneak_s
+map F <Plug>Sneak_S
+
 " Move selected line / block of text in visual mode
 " shift + k to move up
 " shift + j to move down

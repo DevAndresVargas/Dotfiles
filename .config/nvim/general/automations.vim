@@ -23,6 +23,11 @@ augroup numbertoggle
   autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
 augroup END
 
+augroup fileDetect
+   autocmd!
+   autocmd BufEnter * filetype detect
+augroup END
+
 " augroup Aulint
     " autocmd!
     " autocmd BufEnter,BufNew,InsertLeave,TextChanged,VimEnter <buffer>

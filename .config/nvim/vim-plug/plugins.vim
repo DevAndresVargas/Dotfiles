@@ -8,7 +8,6 @@ call plug#begin('~/.config/nvim/plugged')
     else
         " Syntax support
         Plug 'sheerun/vim-polyglot'
-        " Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
         " Autopairs
         Plug 'jiangmiao/auto-pairs'
         " File explorer
@@ -17,13 +16,14 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'tpope/vim-sleuth'
         " Icons
         Plug 'ryanoasis/vim-devicons'
-        " Intellisense / lsp
-        Plug 'prabirshrestha/vim-lsp'
-        Plug 'mattn/vim-lsp-settings'
+
         " Autocomplete
-        Plug 'prabirshrestha/asyncomplete.vim'
-        Plug 'prabirshrestha/asyncomplete-lsp.vim'
-        " "Plug 'neoclide/coc.nvim', {'branch': 'release'}
+        Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+        "  Snippets
+        Plug 'neoclide/coc-snippets'
+        " Emmet
+        Plug 'mattn/emmet-vim'
         " Airline
         Plug 'vim-airline/vim-airline'
         Plug 'vim-airline/vim-airline-themes'
@@ -50,10 +50,16 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
         " scipt runner
         Plug 'ironcamel/vim-script-runner', {'for': ['sh', 'python']}
-        " Not GUI
+        " lorem
+        Plug 'derektata/lorem.nvim'
+        "Not GUI
         Plug 'junegunn/goyo.vim'
+        " Snake
+        Plug 'justinmk/vim-sneak'
         " Focus light
         Plug 'junegunn/limelight.vim'
+        Plug 'goolord/alpha-nvim'
+        Plug 'nvim-tree/nvim-web-devicons'
         " Themes
         Plug 'joshdick/onedark.vim'
         Plug 'kaicataldo/material.vim'
